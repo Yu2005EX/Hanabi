@@ -1,4 +1,3 @@
-// script.js
 const canvas = document.getElementById('fireworks');
 const ctx = canvas.getContext('2d');
 
@@ -76,8 +75,5 @@ function animate() {
 canvas.addEventListener('click', (e) => {
   explode(e.clientX, e.clientY);
 });
-
-// optional: explode at random positions every few seconds
-// setInterval(() => explode(random(100, canvas.width-100), random(100, canvas.height-100)), 1200);
 
 animate();
