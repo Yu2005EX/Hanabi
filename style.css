@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;  /* ここを明確に黒に固定 */
+}
+
+canvas {
+  display: block;
+  background-color: #000;  /* 念のためキャンバス自体も黒に */
+}
